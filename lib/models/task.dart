@@ -13,10 +13,5 @@ class Task {
   void toggleCompleted() {
     completed = !completed;
   }
-
-  void setPreviousStep() {
-
-  }
-
-  void setNextStep() {}
+  
 }
