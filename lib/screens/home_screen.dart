@@ -48,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen>
         barrierDismissible: true,
         builder: (_) => AlertDialog(
           title: Text('Filter options'),
-          content: DropdownButton(
+          content: DropdownButtonFormField(
               items: TaskStep.values.map((e) =>
                   DropdownMenuItem(child: Text(e.toString()),value: e,)).toList(),
               value: selectedVal,
